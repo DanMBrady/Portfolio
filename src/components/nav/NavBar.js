@@ -5,7 +5,10 @@ export const NavigateBar =()=>{
 
     return (
         <ul className="navbar">
-           
+            <li className="navLink">
+                <section className="navLink">Dan Brady</section>
+            </li>
+           <section className="rightNav">
             <li className="navLink">
                 <Link className="navLink" to="/">About</Link>
             </li>
@@ -15,6 +18,7 @@ export const NavigateBar =()=>{
             <li className="navLink">
                 <Link className="navLink" to="/contact">Contact</Link>
             </li>
+            </section>
         </ul>
     )
 }
