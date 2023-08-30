@@ -27,3 +27,18 @@
     height:60px;
 }
 
+@media (max-width:530px){
+    .navLink{
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 15px ;
+    }
+}
+
+@media (max-width: 375px){
+    .navLink{
+        margin-right: 6px;
+        margin-left: 6px;
+        font-size: 10px;
+    }
+}

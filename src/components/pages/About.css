@@ -141,6 +141,7 @@
     
         .aboutTitle{
             font-size: 10px;
+
         }
     
         .aboutMe{
@@ -149,5 +150,81 @@
         }
         .aboutSection{
             font-size: 12px;
+        }
+}
+
+@media (max-width: 530px){
+
+    .profilePhoto{
+        height:175px;
+        width:175px;
+        }
+    
+        .leftDivAbout{
+            margin-right: 10px;
+        }
+    
+        .rightDivAbout{
+            margin-left: 10px;
+        }
+        .aboutName{
+            font: 10px "Fira Sans", sans-serif
+        }
+    
+        .aboutTitle{
+            font-size: 8px;
+        }
+    
+        .aboutMe{
+            font: 10px "Fira Sans", sans-serif;
+            font-weight: 550;
+        }
+        .aboutSection{
+            font-size: 10px;
+        }
+
+        .contactButton{
+            height: 20px;
+            width:90px;
+            font-size: 10px;
+            
+        }
+
+}
+
+@media (max-width: 375px){
+    .profilePhoto{
+        height:140px;
+        width:140px;
+        }
+    
+        .leftDivAbout{
+            margin-right: 8px;
+        }
+    
+        .rightDivAbout{
+            margin-left: 8px;
+        }
+        .aboutName{
+            font: 8px "Fira Sans", sans-serif
+        }
+    
+        .aboutTitle{
+            font-size: 6px;
+        }
+    
+        .aboutMe{
+            font: 8px "Fira Sans", sans-serif;
+            font-weight: 550;
+        }
+        .aboutSection{
+            font-size: 8px;
+        }
+
+        .contactButton{
+            height: 12px;
+            width:80px;
+            font-size: 8px;
+            
         }
 }
