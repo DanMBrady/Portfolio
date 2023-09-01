@@ -1,0 +1,41 @@
+.projectDiv{
+    display: flex; 
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectTitle{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.popCard{
+    background: #143363;
+    color:white;
+    width:25%;
+    height:175px;
+    font-weight: 400;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.flashCard{
+    background: #cf1c15;
+    width:25%;
+    height:175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    border-radius: 7px;
+}
+
+.flashLogo{
+    width:200px;
+}
