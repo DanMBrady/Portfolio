@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 export const Projects =()=>{
     return <div>
     <div className="projectTitle"><h1>Projects</h1></div>
-
+    
     <div className="projectDiv">
         
       <Link to={"/pop"}className="popCard">Pop Quiz</Link>
