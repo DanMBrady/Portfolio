@@ -27,7 +27,7 @@
     height:60px;
 }
 
-@media (max-width:530px){
+@media (max-width:550px){
     .navLink{
         margin-right: 10px;
         margin-left: 10px;
