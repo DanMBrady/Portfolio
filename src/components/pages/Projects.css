@@ -39,3 +39,44 @@
 .flashLogo{
     width:200px;
 }
+
+@media (max-width: 930px){
+
+    .popCard{
+        height:120px;
+        font-size: 30px;
+        margin:60px
+    }
+
+    .flashCard{
+        height:120px;
+        margin:60px
+    }
+
+    .flashLogo{
+        width:120px
+    }
+
+  
+}
+
+@media (max-width: 570px){
+
+    .popCard{
+        height:80px;
+        font-size: 20px;
+        margin-right:40px;
+       
+    }
+
+    .flashCard{
+        height:80px;
+        margin-left:40px;
+       
+    }
+
+    .flashLogo{
+        width:100px
+    }
+    
+}
