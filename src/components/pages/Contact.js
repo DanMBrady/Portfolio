@@ -18,11 +18,11 @@ export const Conatct =()=>{
           e.target.reset()
       };
     return <div className="contactDiv">
-        <h1>Contact</h1>
+        <h1 className="test">Contact</h1>
 
         <form  ref={form} 
         onSubmit={sendEmail}
-        className="form-control">
+        className="contactForm">
             <input
             type="text"
             placeholder="Full Name"

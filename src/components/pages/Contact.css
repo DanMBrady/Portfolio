@@ -6,13 +6,15 @@
     
 }
 
-.form-control{
+.contactForm{
     display: flex;
     flex-direction: column;
     width:55%;
     border:none;
+    
 }
 
 textarea{
     resize: none;
 }
+
