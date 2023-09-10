@@ -18,3 +18,15 @@ textarea{
     resize: none;
 }
 
+.contactInput{
+    margin: 7px;
+}
+
+.contactButtonTwo{
+    margin: 7px;
+    background: #2f7cf0;
+    border:1px solid white;
+    height: 40px;
+    width:120px;
+    color:white
+}
