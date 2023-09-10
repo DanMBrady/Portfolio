@@ -25,26 +25,30 @@ export const Conatct =()=>{
         className="contactForm">
             <input
             type="text"
+            className="contactInput"
             placeholder="Full Name"
             name="user_name" required
             ></input>
              <input
             type="email"
+            className="contactInput"
             placeholder="Email"
             name="user_email" required
             ></input>
              <input
             type="text"
+            className="contactInput"
             placeholder="Subject"
             name="subject" required
             ></input>
             <textarea 
+             className="contactInput"
             name="message"
             cols="30"
             rows="10"
             placeholder="Message"
             ></textarea>
-            <button className="contactButton" type="submit">Send Message</button>
+            <button className="contactButtonTwo" type="submit">Send Message</button>
 
         </form>
     </div>
